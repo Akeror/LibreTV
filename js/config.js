@@ -25,62 +25,66 @@ const API_SITES = {
     dyttzy: {
         api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
         name: '电影天堂资源',
-        detail: 'http://caiji.dyttzyapi.com'
+        detail: 'http://caiji.dyttzyapi.com', 
     },
     ruyi: {
         api: 'https://cj.rycjapi.com/api.php/provide/vod',
-        name: '如意资源'
+        name: '如意资源',
     },
     bfzy: {
         api: 'https://bfzyapi.com/api.php/provide/vod',
-        name: '暴风资源'
+        name: '暴风资源',
     },
     tyyszy: {
         api: 'https://tyyszy.com/api.php/provide/vod',
-        name: '天涯资源'
+        name: '天涯资源',
     },
+    // xiaomaomi: {
+    //     api: 'https://zy.xiaomaomi.cc/api.php/provide/vod',
+    //     name: '小猫咪资源',
+    // },
     ffzy: {
         api: 'http://ffzy5.tv/api.php/provide/vod',
         name: '非凡影视',
-        detail: 'http://ffzy5.tv'
+        detail: 'http://ffzy5.tv', 
     },
     heimuer: {
         api: 'https://json.heimuer.xyz/api.php/provide/vod',
         name: '黑木耳',
-        detail: 'https://heimuer.tv'
+        detail: 'https://heimuer.tv', 
     },
     zy360: {
         api: 'https://360zy.com/api.php/provide/vod',
-        name: '360资源'
+        name: '360资源',
     },
     iqiyi: {
         api: 'https://www.iqiyizyapi.com/api.php/provide/vod',
-        name: 'iqiyi资源'
+        name: 'iqiyi资源',
     },
     wolong: {
         api: 'https://wolongzyw.com/api.php/provide/vod',
-        name: '卧龙资源'
-    },
+        name: '卧龙资源',
+    }, 
     hwba: {
         api: 'https://cjhwba.com/api.php/provide/vod',
-        name: '华为吧资源'
+        name: '华为吧资源',
     },
     jisu: {
         api: 'https://jszyapi.com/api.php/provide/vod',
         name: '极速资源',
-        detail: 'https://jszyapi.com'
+        detail: 'https://jszyapi.com', 
     },
     dbzy: {
         api: 'https://dbzy.tv/api.php/provide/vod',
-        name: '豆瓣资源'
+        name: '豆瓣资源',
     },
     mozhua: {
         api: 'https://mozhuazy.com/api.php/provide/vod',
-        name: '魔爪资源'
+        name: '魔爪资源',
     },
     mdzy: {
         api: 'https://www.mdzyapi.com/api.php/provide/vod',
-        name: '魔都资源'
+        name: '魔都资源',
     },
     zuid: {
         api: 'https://api.zuidapi.com/api.php/provide/vod',
@@ -107,15 +111,15 @@ const API_SITES = {
         name: 'iKun资源'
     },
     fantuan: {
-        api: 'https://www.fantuan.tv/api.php/provide/vod/',
+        api: 'https://www.fantuan.tv/api.php/provide/vod',
         name: '饭团影视'
     },
     ysgc: {
-        api: 'https://cj.lziapi.com/api.php/provide/vod/',
+        api: 'https://cj.lziapi.com/api.php/provide/vod',
         name: '影视工厂'
     },
     qiqi: {
-        api: 'https://www.qiqidys.com/api.php/provide/vod/',
+        api: 'https://www.qiqidys.com/api.php/provide/vod',
         name: '七七资源'
     },
     testSource: {
@@ -166,21 +170,6 @@ const API_SITES = {
         name: '玉兔资源',
         adult: true
     }
-};
-
-    // 下面是资源失效率高的API源，不建议使用
-    // subo: {
-    //     api: 'https://subocaiji.com/api.php/provide/vod',
-    //     name: '速播资源'
-    // },
-    // fczy: {
-    //     api: 'https://api.fczy888.me/api.php/provide/vod',
-    //     name: '蜂巢资源'
-    // },
-    // ukzy: {
-    //     api: 'https://api.ukuapi88.com/api.php/provide/vod',
-    //     name: 'U酷资源'
-    // },
 };
 
 // 添加聚合搜索的配置选项
